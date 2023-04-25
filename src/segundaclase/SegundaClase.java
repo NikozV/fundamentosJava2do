@@ -51,7 +51,7 @@ public class SegundaClase {
         System.out.println("Estos el primer num: "+ numeroUno);
         System.out.println("Estos el segundo num: "+ numeroDos);
          */
- /*
+ 
         Scanner obj = new Scanner(System.in);
 
         System.out.println("Ingrese un numero: ");
@@ -62,7 +62,7 @@ public class SegundaClase {
         int suma = num + num2;
 
         System.out.print("la suma de los dos numeros es: " + suma);
-         */
+        
         //CONDICIONALES
         //Creo un objeto de la clase Scanner
         /*
@@ -76,13 +76,14 @@ public class SegundaClase {
         else{
             System.out.println("es menor de edad");
         }
-         */
+         
         //Condicionales Anidadas
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese un numero entero: ");
         int n = leer.nextInt();
 
         //Pares e impares
+        /*
         if (n != 0) {
             if (n > 0) {
                 if (n % 2 == 0) {
@@ -102,7 +103,7 @@ public class SegundaClase {
         } else {
             System.out.println("Es CERO");
         }
+        */
         
-        //etc para git
     }
 }
